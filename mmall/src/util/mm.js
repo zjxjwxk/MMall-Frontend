@@ -6,7 +6,7 @@
 */
 
 'use strict';
-var Hagon = require('hagon.js');
+var Hogan = require('hogan.js');
 var conf = {
     serverHost : ''
 };
