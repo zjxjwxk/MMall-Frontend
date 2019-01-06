@@ -40,7 +40,7 @@ var config = {
     },
     output: {
         path: './dist',
-        publicPath : '/dist',
+        publicPath : 'https://mall-s.zjxjwxk.com/mmall/dist/',
         filename: 'js/[name].js'
     },
     externals : {
