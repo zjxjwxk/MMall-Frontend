@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.oschina.net:happymmall/mmall-fe.git"
+    "url": "git@github.com:zjxjwxk/MMall-Frontend.git"
   },
-  "author": "Rosen",
+  "author": "zjxjwxk",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.28.1",
