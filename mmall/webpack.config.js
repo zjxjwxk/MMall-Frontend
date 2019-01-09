@@ -45,7 +45,7 @@ var config = {
         'about'             : ['./src/page/about/index.js']
     output: {
         path: './dist',
-        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : 'https://mall-s.zjxjwxk.com/mmall/dist/',
+        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//mall-s.zjxjwxk.com/mmall/dist/',
         filename: 'js/[name].js'
     },
     externals : {
