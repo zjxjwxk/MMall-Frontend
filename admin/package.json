@@ -11,14 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.oschina.net/happymmall/mmall_admin_fe.git"
+    "url": "git@github.com:zjxjwxk/MMall-Frontend.git"
   },
-  "author": "Rosen",
+  "author": "zjxjwxk",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.6.3",
-    "hogan.js": "^3.0.2",
     "rc-pagination": "^1.7.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -38,7 +37,7 @@
     "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.26.0",
     "jsx-loader": "^0.13.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.5.0",
     "sass-loader": "^5.0.1",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",

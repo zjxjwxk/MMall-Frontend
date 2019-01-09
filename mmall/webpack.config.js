@@ -46,7 +46,7 @@ var config = {
    },
     output: {
         path: './dist',
-        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : 'https://mall-s.zjxjwxk.com/mmall/dist/',
+        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//mall-s.zjxjwxk.com/mmall/dist/',
         filename: 'js/[name].js'
     },
     externals : {
