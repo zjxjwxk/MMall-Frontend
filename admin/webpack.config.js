@@ -42,10 +42,12 @@ var config = {
     module: {
         // noParse: [],
         loaders: [
-            {test: /\.css$/, loader: ExtractTextPlugin.extract({
-                use: 'css-loader',
-                fallback : 'style-loader'
-            })},
+            {
+                test: /\.css$/, loader: ExtractTextPlugin.extract({
+                    use: 'css-loader',
+                    fallback : 'style-loader'
+                })
+            },
             {test: /\.scss$/, loader: ExtractTextPlugin.extract({
                 use: 'css-loader!sass-loader',
                 fallback : 'style-loader'
