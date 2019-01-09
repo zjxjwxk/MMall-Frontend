@@ -43,6 +43,7 @@ var config = {
         'user-pass-reset'   : ['./src/page/user-pass-reset/index.js'],
         'result'            : ['./src/page/result/index.js'],
         'about'             : ['./src/page/about/index.js']
+   },
     output: {
         path: './dist',
         publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//mall-s.zjxjwxk.com/mmall/dist/',
