@@ -42,12 +42,10 @@ var config = {
     module: {
         // noParse: [],
         loaders: [
-            {
-                test: /\.css$/, loader: ExtractTextPlugin.extract({
-                    use: 'css-loader',
-                    fallback : 'style-loader'
-                })
-            },
+            {test: /\.css$/, loader: ExtractTextPlugin.extract({
+                use: 'css-loader',
+                fallback : 'style-loader'
+            })},
             {test: /\.scss$/, loader: ExtractTextPlugin.extract({
                 use: 'css-loader!sass-loader',
                 fallback : 'style-loader'
@@ -79,9 +77,7 @@ var config = {
             filename    : 'js/base.js'
         }),
         // 单独处理css
-        new MiniCssExtractPlugin({	
-        	filename : resolveAssetsRootDir('css/[name].css')
-        }),
+        new ExtractTextPlugin('css/[name].css'),
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
