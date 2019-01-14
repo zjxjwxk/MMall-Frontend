@@ -79,7 +79,9 @@ var config = {
             filename    : 'js/base.js'
         }),
         // 单独处理css
-        new ExtractTextPlugin('css/[name].css'),
+        new MiniCssExtractPlugin({	
+        	filename : resolveAssetsRootDir('css/[name].css')
+        }),
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
